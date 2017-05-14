@@ -54,7 +54,7 @@
                     </div>
                     <div class="optList">
                         <div class="opt2" ng-repeat="item in nowOpts track by item.id">
-                            <!--<span class="glyphicon glyphicon-star-empty" ng-click="addDone(item.id,currentIndex)"></span>-->
+                            <span class="glyphicon circle" ng-click="addDone(item.id,currentIndex)"></span>
                             <span><input type="text" ng-model="item.title" ng-blur="blur()" ></span>
                             <span><span class="del glyphicon glyphicon-trash" ng-click="removeOptList(item.id,currentIndex)"></span></span>
                         </div>
